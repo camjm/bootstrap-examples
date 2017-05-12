@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-examples",
+  "description": "a collection of bootstrap examples",
+  "main": "index.html",
+  "authors": [
+    "camjm"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/camjm/bootstrap-examples",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
