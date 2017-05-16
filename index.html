@@ -1,27 +1,73 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Bootstrap Examples</title>
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <base href="/">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Examples</title>
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
 
-  <body class="container">
+<body class="container">
 
-    <nav class="navbar">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
       <div class="navbar-header">
         <div class="navbar-brand">Hello, World!</div>
       </div>
       <ul class="nav navbar-nav">
-        <li><a>Miltiades</a></li>
-        <li><a>Themistocles</a></li>
-        <li><a>Alcibiades</a></li>
+        <li role="presentation">
+          <a href="#">
+            Miltiades
+            <span class="badge">4</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#">
+            Themistocles
+            <span class="badge">0</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#">
+            Alcibiades
+            <span class="badge">2</span>
+          </a>
+        </li>
       </ul>
-    </nav>
-    
+      <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">Mark Otto</a></p>
+      <div class="btn-group navbar-right" role="group" aria-label="...">
+        <button type="button" class="btn btn-default navbar-btn">
+          <span class="glyphicon glyphicon-log-in"></span>
+          Sign in
+        </button>
+        <button type="button" class="btn btn-default navbar-btn">
+          <span class="glyphicon glyphicon-user"></span>
+          Signup
+        </button>
+      </div>
+    </div>
+  </nav>
 
-  </body>
+  
+
+  <div class="page-header"><ol class="breadcrumb breadcrumb-inverse">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Library</a></li>
+    <li class="active">Data</li>
+  </ol>
+    <h1>Example page header 
+      <small>Subtext for header</small>
+    </h1>
+  </div>
+
+  <div class="alert alert-warning" role="alert">
+    <strong>Warning!</strong>
+    Better check yourself, you're not looking too good.
+    <a href="#" class="alert-link">Go Here.</a>
+  </div>
+
+  
+
+</body>
 
 </html>
